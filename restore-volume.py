@@ -2,7 +2,7 @@ import boto3
 from operator import itemgetter
 
 ec2_client = boto3.client('ec2', region_name="us-east-1")
-ec2_resource = boto2.resource('ec2', region_name="us-east-1")
+ec2_resource = boto3.resource('ec2', region_name="us-east-1")
 
 instance_id = "<aws-instance-id>"
 
